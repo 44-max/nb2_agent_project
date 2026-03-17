@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: nb2pdf_agent
+Version: 0.1.0
+Summary: An AI-powered agent to convert Jupyter Notebooks into professional PDF reports.
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: nbformat>=5.0.0
+Requires-Dist: markdown2>=2.4.0
+Requires-Dist: pdfkit>=1.0.0
+Requires-Dist: pygments>=2.15.0
+Requires-Dist: jinja2>=3.1.0
+
+# nb2pdf_agent: Professional Notebook Reporter
+
+An AI-powered conversion tool that transforms Jupyter Notebooks (.ipynb) into polished, ready-to-submit PDF lab reports.
+
+## 🛠️ Requirements
+This agent requires **wkhtmltopdf** to be installed on your system to handle the HTML-to-PDF conversion.
+
+1. **System Tool:** [Download wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) and install it.
+2. **Python Libraries:**
+   ```bash
+   pip install nbformat markdown2 pdfkit pygments jinja2
+   ## 🛠️ Installation
+
+###  Quick Install (Standard)
+```bash
+pip install -r requirements.txt

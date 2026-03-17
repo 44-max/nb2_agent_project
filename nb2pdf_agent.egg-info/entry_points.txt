@@ -1,0 +1,2 @@
+[console_scripts]
+nb2pdf = nb2pdf_agent:main

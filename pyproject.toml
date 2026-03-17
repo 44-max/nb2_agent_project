@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nb2pdf_agent"
+version = "0.1.0"
+description = "An AI-powered agent to convert Jupyter Notebooks into professional PDF reports."
+readme = "README.md"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "nbformat>=5.0.0",
+    "markdown2>=2.4.0",
+    "pdfkit>=1.0.0",
+    "pygments>=2.15.0",
+    "jinja2>=3.1.0"
+]
+
+[project.scripts]
+nb2pdf = "nb2pdf_agent:main"
+
+[tool.setuptools]
+py-modules = ["nb2pdf_agent"]
